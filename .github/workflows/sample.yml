@@ -26,5 +26,5 @@ jobs:
         run: echo {$PWD}
       - name: Deploy to AWS.
         run: |
-          cd ./
+          cd ./jekyll/
           ls -la
