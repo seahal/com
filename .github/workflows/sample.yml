@@ -24,6 +24,4 @@ jobs:
       - name: CREATE POST.
         run: echo {$PWD}
       - name: Deploy to AWS.
-        run: \
-        cd && ls -la
-
+        run: cd ../ && ls -la
