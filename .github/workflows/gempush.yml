@@ -1,9 +1,6 @@
 name: Ruby Gem
 
 on:
-  pull_request:
-    branches:
-      - master
   push:
     branches:
       - master
@@ -14,15 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby 2.6
-      uses: actions/setup-ruby@v1
-      with:
-        version: 2.6.x
+      - name: Greeting
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: 'Mona the octocat'
+          id: hello
+        # This step prints an output (time) from the previous step's action.
+      - name: Echo the greeting's time
+        run: echo 'The time was ${{ steps.hello.outputs.time }}.'
 
-    - name: Publish to GPR
-      run: |
-        bundle
-      env:
-        GEM_HOST_API_KEY: ${{secrets.GPR_AUTH_TOKEN}}
-        OWNER: username
+
