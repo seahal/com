@@ -26,6 +26,5 @@ jobs:
       - name: Set up Jekyll
         run: |
           cd ./jekyll/
-          ls -la
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
