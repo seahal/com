@@ -13,9 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout from repository
         uses: actions/checkout@v2
-      - name: Set up ruby
         uses: actions/setup-ruby@v1
       - uses: actions/cache@v1
         with:
