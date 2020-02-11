@@ -14,11 +14,11 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [6]
+      node: [6]
 
     steps:
       - name: Greeting
-        uses: actions/hello-world-javascript-action@v1
+        uses: actions/checkout@v2
         with:
           who-to-greet: 'Mona the octocat'
           id: hello
