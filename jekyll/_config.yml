@@ -43,13 +43,9 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - .git/
-  - .github
   - .gitignore
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - TODO.md
-  - README.md
