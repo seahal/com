@@ -17,6 +17,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Set up ruby
         uses: actions/setup-ruby@v1
+      - name: Age
+        run: |
+          echo ${{ runner.os }}
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
