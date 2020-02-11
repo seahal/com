@@ -21,4 +21,4 @@ jobs:
       - name: Set up Jekyll
         run: |
           cd ./jekyll/
-          bundle install
+          bundle install --jobs 4 --retry 3
