@@ -27,4 +27,4 @@ jobs:
       - name: Deploy to AWS.
         run: |
           cd ./jekyll/
-          ls -la
+          bundle install
