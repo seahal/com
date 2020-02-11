@@ -23,5 +23,7 @@ jobs:
         run: ruby -v
       - name: CREATE POST.
         run: echo {$PWD}
-
+      - name: Deploy to AWS.
+        run: \
+        cd && ls -la
 
