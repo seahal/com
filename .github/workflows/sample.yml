@@ -14,15 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set Up
+      - name: Checkout from repository
         uses: actions/checkout@v2
       - name: Set up ruby
         uses: actions/setup-ruby@v1
-      - name: Build Jekyll System
-        run: ruby -v
-      - name: CREATE POST.
-        run: echo {$PWD}
-      - name: Deploy to AWS.
+      - name: Set up Jekyll
         run: |
           cd ./jekyll/
           bundle install
