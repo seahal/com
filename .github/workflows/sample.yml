@@ -20,7 +20,7 @@ jobs:
           who-to-greet: 'Mona the octocat'
           id: hello
       - name: Build Jekyll System
-        run: echo {$PWD}
+        run: ruby -v
       - name: Echo the greeting's time
         run: echo 'The time was ${{ steps.hello.outputs.time }}.'
 
