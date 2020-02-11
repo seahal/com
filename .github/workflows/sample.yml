@@ -14,12 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Greeting
+      - name: Set Up
         uses: actions/checkout@v2
-      - uses: actions/setup-ruby@v1
-        with:
-          who-to-greet: 'Mona the octocat'
-          id: hello
+        uses: actions/setup-ruby@v1
       - name: Build Jekyll System
         run: ruby -v
       - name: CREATE POST.
