@@ -12,8 +12,9 @@ jobs:
     name: Set up
     runs-on: ${{ matrix.os }}
     startegy:
-      os: [ubuntu-latest]
-      node: [6,8,10]
+      matrix:
+        os: [ubuntu-latest]
+        node: [6,8,10]
 
     steps:
       - name: Greeting
