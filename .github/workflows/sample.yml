@@ -19,7 +19,7 @@ jobs:
           ruby-version: 2.7
       - uses: actions/cache@v1
         with:
-          path: jekyll/vendor/bundle
+          path: ./jekyll/vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
