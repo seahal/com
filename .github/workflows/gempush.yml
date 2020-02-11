@@ -11,7 +11,7 @@ jobs:
   build:
     name: Set up
     runs-on: ${{ matrix.os }}
-    startegy:
+    strategy:
       matrix:
         os: [ubuntu-latest]
         node: [6,8,10]
