@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Set up
-    runs-on: [self-hosted, ubuntu-latest]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Greeting
