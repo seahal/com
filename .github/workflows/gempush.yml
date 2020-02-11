@@ -10,11 +10,7 @@ on:
 jobs:
   build:
     name: Set up
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-      node: [10]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Greeting
