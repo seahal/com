@@ -5,3 +5,4 @@
 - aws s3 を使うこと
 - Jekyll を使うが、今度は複雑なことをさせないこと
 - [S3+CloudFrontで末尾スラッシュがないディレクトリのindex.htmlを表示する](https://higelog.brassworks.jp/2955)
+- .net も Google Domain に移行する

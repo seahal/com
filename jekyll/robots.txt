@@ -1,0 +1,2 @@
+User-Agent: *
+Disallow: /article/category/index.html
