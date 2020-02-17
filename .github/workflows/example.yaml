@@ -3,7 +3,7 @@ name: example
 on:
   push:
     branches:
-      - master
+      - self-hosted
 
 jobs:
   build:
