@@ -1,0 +1,17 @@
+{
+  "Services": {
+    "app": {
+      "Image": "ruby@sha256:81eea56e5cca08ee32df47d75f217ed01f10da468490f85ddd041c5c0bdd5178",
+      "Networks": [
+        "default"
+      ],
+      "Ports": [
+        {
+          "Port": 5000,
+          "Protocol": "tcp"
+        }
+      ]
+    }
+  },
+  "Version": "0.1"
+}
