@@ -10,6 +10,5 @@ jobs:
     name: Set up
     runs-on: ubuntu-latest
     steps:
-      - name: "jhon doe"
-        uses: actions/checkout@v2
-        run: echo "hello"
+      - uses: actions/checkout@v2
+      - run: echo "hello"
