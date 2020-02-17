@@ -8,10 +8,10 @@ on:
 jobs:
   build:
     name: Set up
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Ruby 2.6
-        uses: docker://alpine:3.8
+      - name: Set up Ruby 2.7
+        uses: docker://ruby:2.7
       - name: docker compose
         run: docker-compose build
