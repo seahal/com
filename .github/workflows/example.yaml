@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - runs:
+      - name: Set up Ruby 2.6
+        runs:
           using: 'docker'
-          image: ruby
