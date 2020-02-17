@@ -3,7 +3,7 @@ name: example
 on:
   push:
     branches:
-      - self-hosted
+      - [ubuntu-latest]
 
 jobs:
   build:
