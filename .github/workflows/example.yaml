@@ -8,6 +8,8 @@ on:
       build:
         name: Set up
         runs-on: ubuntu-latest
-
         steps:
           - uses: actions/checkout@v2
+        - name: Set up Jekyll
+          run: |
+            echo "helo"
