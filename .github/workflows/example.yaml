@@ -3,13 +3,19 @@ name: example
 on:
   push:
     branches:
-      - [ubuntu-latest]
-
+      - master
+      
 jobs:
   build:
     name: Set up
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: hello
-        run: echo "hello"
+      - name: Set up Ruby
+        uses: docker://ruby:2.7
+      - name: Set up Postgres
+        uses: docker://postgres
+      - name: Set up Redis
+        uses: docker://redis
+      - name: docker compose
+        run: docker-compose build
