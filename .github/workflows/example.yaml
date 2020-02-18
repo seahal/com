@@ -10,7 +10,7 @@ jobs:
     name: Set up
     runs-on: [ubuntu-latest]
     # container:
-    #   image: ubuntu
+    #   image: alpine
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker compose
