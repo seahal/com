@@ -11,5 +11,7 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Ruby
-        run: docker-compose build || docker-compose up
+      - name: Set up Docker compose
+        run: docker-compose build || docker-compose up -d
+      - name: Do test
+        run: docker-compose run uptime
