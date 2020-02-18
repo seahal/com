@@ -14,4 +14,4 @@ jobs:
       - name: Set up Docker compose
         run: docker-compose build || docker-compose up -d
       - name: Do test
-        run: docker-compose run uptime
+        run: docker-compose run ruby date
