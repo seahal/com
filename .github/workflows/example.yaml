@@ -15,3 +15,5 @@ jobs:
         run: docker-compose build || docker-compose up -d
       - name: Do test
         run: docker-compose run ruby date
+      - name: Finish
+        run: docker-compose run redis date
