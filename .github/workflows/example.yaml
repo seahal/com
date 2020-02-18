@@ -10,6 +10,9 @@ jobs:
     name: Set up
     runs-on: [ubuntu-latest]
     steps:
+      - uses: actions/cache@v1
+        with:
+          path: /var/lib/docker/
       - uses: actions/checkout@v2
       - name: Set up Docker compose
         run: docker-compose build || docker-compose up -d
