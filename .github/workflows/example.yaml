@@ -9,6 +9,8 @@ jobs:
   build:
     name: Set up
     runs-on: [ubuntu-latest]
+    container:
+      image: alpine
     steps:
       - uses: actions/cache@v1
         with:
