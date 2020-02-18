@@ -16,4 +16,4 @@ jobs:
       - name: Do test
         run: docker-compose run ruby date
       - name: Finish
-        run: docker-compose run redis date
+        run: docker-compose run redis uptime
