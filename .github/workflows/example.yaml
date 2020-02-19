@@ -12,8 +12,9 @@ jobs:
     # container:
     #   image: alpine
     steps:
-      - uses: actions/upload-artifact@v1
       - uses: actions/checkout@v2
+      - name: Upload test 1
+        uses: actions/upload-artifact@v1        
       - name: Set up Docker compose
         run: docker-compose build || docker-compose up -d
       - name: Do test
