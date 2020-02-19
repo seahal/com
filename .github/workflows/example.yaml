@@ -19,7 +19,7 @@ jobs:
           path: sample.tar
 
   two:
-    name: download
+    name: Download
     runs-on: [ubuntu-latest]
     needs: one
     steps:
@@ -28,4 +28,4 @@ jobs:
         with:
           name: homework
       - shell: bash
-        run: cat homework/math-homework.txt
+        run: cat homework/sample.tar
