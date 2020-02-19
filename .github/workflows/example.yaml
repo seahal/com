@@ -16,10 +16,5 @@ jobs:
         with:
           name: homework
           path: math-homework.txt
-      - uses: actions/checkout@v2          
       - name: Set up Docker compose
-        run:  expr 3 + 3 > math-homework.txt        
-      - name: Do test
-        run: docker-compose run ruby date
-      - name: Finish
-        run: docker-compose run redis date
+        run:  expr 3 + 3 > math-homework.txt
