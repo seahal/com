@@ -9,15 +9,14 @@ jobs:
   one:
     name: Set up
     runs-on: [ubuntu-latest]
-    # container:
-    #   image: alpine
     steps:
+      - uses: actions/checkout@v2
       - name: Set up Docker compose
-        run:  expr 3 + 3 > math-homework.txt
+        run: docker save admin/echo > sample.tar
       - uses: actions/upload-artifact@v1
         with:
           name: homework
-          path: math-homework.txt
+          path: sample.tar
 
   two:
     name: download
