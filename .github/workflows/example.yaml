@@ -28,4 +28,5 @@ jobs:
         with:
           name: homework
       - shell: bash
-        run: cat homework/sample.tar
+        run: docker load < homework/sample.tar
+      - run: docker run admin/echo ruby -v
