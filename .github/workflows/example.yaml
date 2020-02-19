@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker compose
-        run: docker save admin/echo > sample.tar
+        run: docker build admin/echo . && docker save admin/echo > sample.tar
       - uses: actions/upload-artifact@v1
         with:
           name: homework
