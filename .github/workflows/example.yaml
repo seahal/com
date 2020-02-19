@@ -12,11 +12,11 @@ jobs:
     # container:
     #   image: alpine
     steps:
-      - uses: actions/checkout@v2
       - uses: actions/upload-artifact@v1
         with:
           name: homework
           path: math-homework.txt
+      - uses: actions/checkout@v2          
       - name: Set up Docker compose
         run:  expr 3 + 3 > math-homework.txt        
       - name: Do test
