@@ -6,7 +6,7 @@ on:
       - master
       
 jobs:
-  build:
+  one:
     name: Set up
     runs-on: [ubuntu-latest]
     # container:
@@ -18,3 +18,14 @@ jobs:
         with:
           name: homework
           path: math-homework.txt
+
+  two:
+    name: download
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Download math result for job 1
+        uses: actions/download-artifact@v1
+        with:
+          name: homework
+      - shell: bash
+        run: cat homework/math-homework.txt
