@@ -22,6 +22,7 @@ jobs:
   two:
     name: download
     runs-on: [ubuntu-latest]
+    needs: one
     steps:
       - name: Download math result for job 1
         uses: actions/download-artifact@v1
