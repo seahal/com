@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2  
     - name: Run a one-line script
-      run: echo ${{ASDFC}}
+      run: echo ${{secrets.ASDFC}}
   #     - uses: actions/upload-artifact@v1
   #       with:
   #         name: homework
