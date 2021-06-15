@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set up Docker compose
-       shell: bash
+      - shell: bash
          run: echo {{ asdfg }}
   #     - uses: actions/upload-artifact@v1
   #       with:
