@@ -3,16 +3,16 @@ name: example
 on:
   push:
     branches:
-      - master
+      - production
       
 jobs:
-  # one:
-  #   name: Set up
-  #   runs-on: [ubuntu-latest]
-  #   steps:
-  #     - uses: actions/checkout@v2
-  #     - name: Set up Docker compose
-  #       run:  docker build -t admin/echo ./ && docker save admin/echo > sample.tar
+  one:
+    name: Set up
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Docker compose
+         run: echo {{ asdfg }}
   #     - uses: actions/upload-artifact@v1
   #       with:
   #         name: homework
