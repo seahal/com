@@ -35,4 +35,4 @@
   - en
     - article
     - news
-  - s3
+  - pd(permadata)
