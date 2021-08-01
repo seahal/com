@@ -4,6 +4,7 @@
 - このレポジトリは新生 [seahal.com](https://seahal.com) のために作成されました｡
 
 # ToDo
+- Dev に「アーチファクト」をおき、Ops に「Terraform」を置く
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
 - サブモジュールを多用し、システムから画像と文章は分離する
 - Github Actions で CI/CD を完結させる
