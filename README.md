@@ -15,6 +15,8 @@
 - 時差に注意する。日本時間なのかわかんないときがあるので。
 - Worker から Github actions へ
 - 高速化
+- Discus を使う
+- Adsense と Amazon Affiliate を使う。
 - EU GDPR がうざいから、クッキーを抹殺する。
 - 不可視フォルダをどうすっかな？
 - Information と About をひとまとめにする。たとえば「情報」「日記」「ニュース」「メモ」の4つをブログのコアにする。
