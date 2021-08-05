@@ -24,6 +24,7 @@
 - Information と About をひとまとめにする。たとえば「情報」「日記」「ニュース」「メモ」の4つをブログのコアにする。
 - ホームの静的サイトジェネレータは使わないで、Babel と Webpack に任せる。
 - 毎年の年月に合わせるために Cron を設定しよう。
+- NTT DATA のサイトが好きなので参考にする。イトイ新聞とかもよし。
 
 # FixIt
 - 階層を廃止する。
@@ -39,6 +40,7 @@
     - news
     - article
     - diary
+    - memo
   - en
     - article
     - news
