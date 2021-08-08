@@ -4,6 +4,7 @@
 - このレポジトリは新生 [seahal.com](https://seahal.com) のために作成されました｡
 
 # ToDo
+- Adsense を貼る
 - Application に「アーチファクト」をおき、Operation に「Terraform」を置く
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
 - サブモジュールを多用し、システムから画像と文章は分離する
