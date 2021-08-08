@@ -37,12 +37,10 @@
 
 # Tree
 - com
-  - ja
-    - news
+  - ja(news,information)
     - article
     - diary
     - memo
-  - en
+  - en(news,information)
     - article
-    - news
   - pd(permadata)
