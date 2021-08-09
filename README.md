@@ -51,7 +51,7 @@
   - ja(news,information)
     - article
     - diary
-    - memo
+    - misc
   - en(news,information)
     - article
   - pd(permadata)
