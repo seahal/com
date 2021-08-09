@@ -9,6 +9,7 @@
 # ToDo
 - Adsense を貼る
 - aws-sdk 使う。
+- 検索が .net になっているので変更しよう。
 - シンボリックリンクで、Gemfile などを使い回す。
 - Application に「アーチファクト」をおき、Operation に「Terraform」を置く
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
