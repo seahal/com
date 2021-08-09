@@ -8,6 +8,7 @@
 
 # ToDo
 - Adsense を貼る
+- aws-sdk 使う。
 - Application に「アーチファクト」をおき、Operation に「Terraform」を置く
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
 - サブモジュールを多用し、システムから画像と文章は分離する
