@@ -1,6 +1,6 @@
 ![SEAHAL.COM](https://github.com/seahal/com/workflows/SEAHAL.COM/badge.svg)
 
-# tk;dr
+# tl;dr
 このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。
 
 # 予定
@@ -9,6 +9,7 @@
 # ToDo
 - Adsense を貼る
 - aws-sdk 使う。
+- シンボリックリンクで、Gemfile などを使い回す。
 - Application に「アーチファクト」をおき、Operation に「Terraform」を置く
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
 - サブモジュールを多用し、システムから画像と文章は分離する
