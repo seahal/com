@@ -1,6 +1,9 @@
 ![SEAHAL.COM](https://github.com/seahal/com/workflows/SEAHAL.COM/badge.svg)
 
-# Information
+# SEAHAL
+このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。
+
+# tl;dr
 - このレポジトリは新生 [seahal.com](https://seahal.com) のために作成されました｡
 
 # ToDo
@@ -29,8 +32,6 @@
 - NTT DATA のサイトが好きなので参考にする。イトイ新聞とかもよし。
 - ばんくずリンクは下に表示すること。
 - S3 のシークレットは GitHub Actions に持たせよ。
-
-# FixIt
 - 階層を廃止する。
 - １年以上経過した記事には警告を書く
 - タグと階層の廃止
