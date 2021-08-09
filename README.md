@@ -1,10 +1,10 @@
 ![SEAHAL.COM](https://github.com/seahal/com/workflows/SEAHAL.COM/badge.svg)
 
-# SEAHAL
+# tk;dr
 このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。
 
-# tl;dr
-- このレポジトリは新生 [seahal.com](https://seahal.com) のために作成されました｡
+# 予定
+2022.02 ぐらいから、移動を本格化したい。
 
 # ToDo
 - Adsense を貼る
@@ -39,8 +39,11 @@
 - 著作権を MIT ライセンスをどうするか？
 - 一番下に SiteMap を書く
 
-# Tree
-- com
+# フォルダ構成について
+- root
+
+# seahal.com の構造について
+- root
   - ja(news,information)
     - article
     - diary
