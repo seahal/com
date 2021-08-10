@@ -9,6 +9,7 @@
 # ToDo
 - Adsense を貼る
 - aws-sdk 使う。
+- favicon を置く。
 - URI の正規化。シンプルな URI を目指そう。
 - 検索が .net になっているので変更しよう。
 - シンボリックリンクで、Gemfile などを使い回す。
