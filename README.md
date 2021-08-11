@@ -10,6 +10,7 @@
 - Adsense を貼る
 - aws-sdk 使う。
 - favicon を置く。
+- S3 の内容は一旦ブリーチする。そうしないと古いデータが残っていて困るよ。
 - assets gem は廃止。Webpack に移行する。
 - faas でメールフォームをつくる
 - URI の正規化。シンプルな URI を目指そう。
