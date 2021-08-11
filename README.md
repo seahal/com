@@ -10,9 +10,9 @@
 - Adsense を貼る
 - aws-sdk 使う。
 - favicon を置く。
+- assets gem は廃止。Webpack に移行する。
 - faas でメールフォームをつくる
 - URI の正規化。シンプルな URI を目指そう。
-- 検索が .net になっているので変更しよう。
 - シンボリックリンクで、Gemfile などを使い回す。
 - Application に「アーチファクト」をおき、Operation に「Terraform」を置く
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
