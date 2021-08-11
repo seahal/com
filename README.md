@@ -28,7 +28,7 @@
 - PageSpeed を上げる
 - Discus を使う
 - Adsense と Amazon Affiliate を使う。
-- EU GDPR がうざいから、クッキーを抹殺する。
+- EU GDPR がうざいから、クッキーの告知をする。ポップアップはしない予定。
 - 不可視フォルダをどうすっかな？
 - 色は変える。
 - 時差が生じるから、その不都合をなくす。
@@ -54,7 +54,7 @@
   - ja(news,information)
     - article
     - diary
-    - misc
+    - memo
   - en(news,information)
     - article
   - pd(permadata)
