@@ -3,9 +3,6 @@
 # tl;dr
 このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。
 
-# 予定
-2022.02 ぐらいから、移動を本格化したい。
-
 # ToDo
 - Adsense を貼る
 - aws-sdk 使う。
