@@ -46,6 +46,17 @@
 - デザインとか
 - 著作権を MIT ライセンスをどうするか？
 - .com に SiteMap と検索をおく
+- [ ] Blogger からのデータ引越し方法も考える。
+- [ ] 基本は S3 で組んで、https 接続の CDN を、と考えている。
+- [ ] Blogger 批判でも書くか。
+- [ ] コストのことも記事にする。
+- [ ] 速さも書く。阿部寛のページと比較する。
+- [ ] AMP に対応させない。
+- [ ] twitter facebook hatena ボタンを組む
+
+インデックスのためにすること
+https://www.google.com/webmasters/tools/home?hl=ja
+https://www.google.com/webmasters/tools/preferences?hl=ja
 
 # フォルダ構成について
 - root
