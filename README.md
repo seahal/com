@@ -54,10 +54,6 @@
 - [ ] AMP に対応させない。
 - [ ] twitter facebook hatena ボタンを組む
 
-インデックスのためにすること
-https://www.google.com/webmasters/tools/home?hl=ja
-https://www.google.com/webmasters/tools/preferences?hl=ja
-
 # フォルダ構成について
 - root
 
