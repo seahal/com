@@ -4,6 +4,7 @@
 このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。
 
 # ToDo
+- SNS ポリシーを制定する。
 - Adsense を貼る
 - aws-sdk 使う。
 - favicon を置く。
