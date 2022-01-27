@@ -1,0 +1,3 @@
+[submodule "pd/_posts"]
+	path = pd/_posts
+	url = git@github.com:seahal/pd.seahal.com.git
