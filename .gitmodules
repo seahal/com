@@ -19,3 +19,6 @@
 [submodule "seahal.ja.article/_posts"]
 	path = seahal.ja.article/_posts
 	url = git@github.com:seahal/article.ja.seahal.com.git
+[submodule "seahal.ja.diary/_posts"]
+	path = seahal.ja.diary/_posts
+	url = git@github.com:seahal/diary.ja.seahal.com.git
