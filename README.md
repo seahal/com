@@ -1,4 +1,4 @@
-[![CI/CD](https://github.com/seahal/website/actions/workflows/example.yaml/badge.svg)](https://github.com/seahal/website/actions/workflows/example.yaml)
+[![CI/CD](https://github.com/seahal/website/actions/workflows/deploy_to_aws.yaml/badge.svg)](https://github.com/seahal/website/actions/workflows/deploy_to_aws.yaml)
 
 # tl;dr
 このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。
