@@ -18,6 +18,9 @@
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
 - サブモジュールを多用し、システムから画像と文章は分離する
 - Github Actions で CI/CD を完結させる
+  - uses: ruby/setup-ruby@v1
+  - node
+  - aws
 - Terraform と Docker を使うか否か
   - Terraform を活用するが、秘匿部分は要注意
   - Docker を使うが、秘匿キーの扱いは要注意
