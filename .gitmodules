@@ -1,24 +1,24 @@
 [submodule "seahal/_posts"]
-	path = seahal/_posts
+	path = com/_posts
 	url = git@github.com:seahal/seahal.com.git
 [submodule "seahal.pd/_posts"]
-	path = seahal.pd/_posts
+	path = com.pd/_posts
 	url = git@github.com:seahal/pd.seahal.com.git
 [submodule "seahal.en/_posts"]
-	path = seahal.en/_posts
+	path = com.en/_posts
 	url = git@github.com:seahal/en.seahal.com.git
 [submodule "seahal.en.article/_posts"]
-	path = seahal.en.article/_posts
+	path = com.en.article/_posts
 	url = git@github.com:seahal/article.en.seahal.com.git
 [submodule "seahal.ja/_posts"]
-	path = seahal.ja/_posts
+	path = com.ja/_posts
 	url = git@github.com:seahal/ja.seahal.com.git
 [submodule "seahal.ja.memo/_posts"]
-	path = seahal.ja.memo/_posts
+	path = com.ja.memo/_posts
 	url = git@github.com:seahal/memo.ja.seahal.com.git
 [submodule "seahal.ja.article/_posts"]
-	path = seahal.ja.article/_posts
+	path = com.ja.article/_posts
 	url = git@github.com:seahal/article.ja.seahal.com.git
 [submodule "seahal.ja.diary/_posts"]
-	path = seahal.ja.diary/_posts
+	path = com.ja.diary/_posts
 	url = git@github.com:seahal/diary.ja.seahal.com.git
