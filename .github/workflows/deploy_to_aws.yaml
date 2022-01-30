@@ -11,10 +11,8 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
     - uses: actions/checkout@v2  
-    - name: Run a one-line script
-      run: cd seahal.ja.memo/_posts/ && ls -la
     - name: check submodule, delete below
-      run: cd seahal.ja.memo/_posts/ && ls -la           
+      run: date
   #     - uses: actions/upload-artifact@v1
   #       with:
   #         name: homework
