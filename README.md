@@ -1,7 +1,7 @@
 [![CI/CD](https://github.com/seahal/website/actions/workflows/deploy_to_aws.yaml/badge.svg)](https://github.com/seahal/website/actions/workflows/deploy_to_aws.yaml)
 
 # tl;dr
-このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。
+このレポジトリは [seahal.com](https://seahal.com) のシステムを開示するために公開しています。ただし、クレデンシャル（AWS,GitHub など）や画像や記事といったファイルは非公開とさせていただいております。また、このレポジトリを再利用することは想定しておりません。予めご了承ください。
 
 # ToDo
 - SNS ポリシーを制定する。
@@ -46,18 +46,18 @@
 - デザインとか
 - 著作権を MIT ライセンスをどうするか？
 - .com に SiteMap と検索をおく
-- [ ] Blogger からのデータ引越し方法も考える。
-- [ ] 基本は S3 で組んで、https 接続の CDN を、と考えている。
-- [ ] Blogger 批判でも書くか。
-- [ ] コストのことも記事にする。
-- [ ] 速さも書く。阿部寛のページと比較する。
-- [ ] AMP に対応させない。
-- [ ] twitter facebook hatena ボタンを組む
+- Blogger からのデータ引越し方法も考える。
+- 基本は S3 で組んで、https 接続の CDN を、と考えている。
+- Blogger 批判でも書くか。
+- コストのことも記事にする。
+- 速さも書く。阿部寛のページと比較する。
+- AMP に対応させない。
+- twitter facebook hatena ボタンを組む
+- 以下の脆弱性チェッカに応対させる
+  - https://securityheaders.com
+  - https://www.ssllabs.com/ssltest/
 
-# フォルダ構成について
-- root
-
-# seahal.com の構造について
+# サイト構造について
 - root
   - ja(news,information)
     - article
@@ -67,8 +67,5 @@
     - article
   - pd(permadata)
 
-
-# ライセンスにつきまして
+# ライセンスについて
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 ライセンス</a>の下に提供されています。
-
-
