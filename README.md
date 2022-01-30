@@ -11,22 +11,25 @@
 - S3 の内容は一旦ブリーチする。そうしないと古いデータが残っていて困るよ。
 - assets gem は廃止。Webpack に移行する。
 - AWS LAMBDA でメールフォームをつくる
-- AWS Lambda で index.html に書き換えるコードを作る。
+- AWS Lambda edge で index.html に書き換えるコードを作る。
 - URI の正規化。シンプルな URI を目指そう。
 - シンボリックリンクで、Gemfile などを使い回す。
 - Application に「アーチファクト」をおき、Operation に「Terraform」を置く
 - 次期システムは Jekyll を継続し、React と Babel と Webpack の知識を吸収する。
 - サブモジュールを多用し、システムから画像と文章は分離する
 - Github Actions で CI/CD を完結させる
-- Terraform を活用するが、秘匿部分は要注意
-- GitHub に秘匿キーするのを忘れない
-- 階層は、複雑になるが、諦めよう。
-- Docker を使うが、秘匿キーの扱いは要注意
+- Terraform と Docker を使うか否か
+  - Terraform を活用するが、秘匿部分は要注意
+  - Docker を使うが、秘匿キーの扱いは要注意
+  - 一部のページに Jekyll を使うのは高コストなのでやめたい
+    - だけど、日付とかをへんこうするのはどうするか？ bash の機能とかを使うとするか？
+- GitHub に秘匿キーが入るのを防御する
 - 時差に注意する。日本時間なのかわかんないときがあるので。
 - Worker から Github actions へ
 - 高速化
-- PageSpeed を上げる
-- Discus を使う
+  - PageSpeed を上げる
+  - 速さも書く。阿部寛のページと比較する。
+- Disqus を使う
 - Adsense と Amazon Affiliate を使う。
 - EU GDPR がうざいから、クッキーの告知をする。ポップアップはしない予定。
 - 不可視フォルダをどうすっかな？
@@ -38,27 +41,25 @@
 - 毎年の年月に合わせるために Cron を設定しよう。
 - NTT DATA のサイトが好きなので参考にする。イトイ新聞とかもよし。東北新社もよし。
 - ばんくずリンクは下に表示すること。
-- S3 のシークレットは GitHub Actions に持たせよ。
+- S3 のシークレットは GitHub Actions の Secret に持たせよ。
 - 階層を廃止する。
 - 検索できるページを限定しよう。特にただのナビゲーションページは検索できないようにする。
 - １年以上経過した記事には警告を書く
 - タグと階層の廃止
-- デザインとか
-- 著作権を MIT ライセンスをどうするか？
 - .com に SiteMap と検索をおく
 - Blogger からのデータ引越し方法も考える。
 - 基本は S3 で組んで、https 接続の CDN を、と考えている。
-- Blogger 批判でも書くか。
-- コストのことも記事にする。
-- 速さも書く。阿部寛のページと比較する。
-- AMP に対応させない。
-- twitter facebook hatena ボタンを組む
+- AMP には対応させない。
+- twitter facebook hatena ボタンを入れる。ただし、遅くなるので JS は切る。
+- 記事にする
+  - Blogger 批判でも書くか。
+  - コストのことも記事にする。
 - 以下の脆弱性チェッカに応対させる
   - https://securityheaders.com
   - https://www.ssllabs.com/ssltest/
 
-# サイト構造について
-- root
+# サイトの構造について
+- com
   - ja(news,information)
     - article
     - diary
