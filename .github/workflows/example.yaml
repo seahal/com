@@ -1,4 +1,4 @@
-name: example
+name: deploy_to_aws
 
 on:
   push:
