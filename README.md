@@ -6,6 +6,7 @@
 # ToDo
 - SNS ポリシーを制定する。
 - Adsense を貼る
+  - 申請が通らない間は Amazon Affiliate でも貼っておくか。
 - aws-sdk 使う。
 - favicon を置く。
 - S3 の内容は一旦ブリーチする。そうしないと古いデータが残っていて困るよ。
